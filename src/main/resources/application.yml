@@ -1,0 +1,15 @@
+spring:
+  security:
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: admin123
+  data:
+    mongodb:
+      authentication-database: admin
+      host: localhost
+      database: test
+      port: 27017
+      username: user1
+      password: pass123

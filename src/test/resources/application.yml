@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  security:
+    basic:
+      enabled: true
+      realm: some-service
+    user:
+      name: admin
+      password: admin123
+  data:
+    mongodb:
+      authentication-database: admin
+
