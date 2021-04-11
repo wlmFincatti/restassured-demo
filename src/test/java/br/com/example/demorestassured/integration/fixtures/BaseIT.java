@@ -4,6 +4,7 @@ import br.com.example.demorestassured.integration.DemoRestassuredApplicationIT;
 import br.com.example.demorestassured.integration.constants.AnimeConstantsIT;
 import io.restassured.authentication.BasicAuthScheme;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
@@ -29,6 +30,6 @@ public class BaseIT extends DemoRestassuredApplicationIT {
                 .setContentType(ContentType.JSON)
                 .build();
 
-        enableLoggingOfRequestAndResponseIfValidationFails();
+        enableLoggingOfRequestAndResponseIfValidationFails(LogDetail.ALL);
     }
 }

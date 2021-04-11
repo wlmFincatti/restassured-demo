@@ -18,6 +18,7 @@
 		<rest-assured.version>4.2.0</rest-assured.version>
 		<json-schema-validator.version>3.3.0</json-schema-validator.version>
 		<maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
+		<cucumber.version>6.8.0</cucumber.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -83,7 +84,24 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-spring</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>

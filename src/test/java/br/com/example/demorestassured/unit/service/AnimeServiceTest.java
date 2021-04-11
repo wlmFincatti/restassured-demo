@@ -3,6 +3,7 @@ package br.com.example.demorestassured.unit.service;
 import br.com.example.demorestassured.entity.Anime;
 import br.com.example.demorestassured.repository.AnimeRepository;
 import br.com.example.demorestassured.service.AnimeService;
+import br.com.example.demorestassured.service.impl.AnimeServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +25,7 @@ class AnimeServiceTest {
     @BeforeEach
     void setUp() {
         this.repository = mock(AnimeRepository.class);
-        this.service = new AnimeService(this.repository);
+        this.service = new AnimeServiceImpl(this.repository);
         this.animeMock = mock(Anime.class);
     }
 

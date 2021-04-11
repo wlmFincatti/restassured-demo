@@ -1,39 +1,17 @@
 package br.com.example.demorestassured.service;
 
 import br.com.example.demorestassured.entity.Anime;
-import br.com.example.demorestassured.repository.AnimeRepository;
-import br.com.example.demorestassured.service.exception.AnimeNotFounException;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-public class AnimeService {
+public interface AnimeService {
 
-    private AnimeRepository repository;
+    List<Anime> findAnimes();
 
-    public AnimeService(AnimeRepository repository) {
-        this.repository = repository;
-    }
+    Anime findAnime(String id);
 
-    public List<Anime> findAnimes() {
-        return this.repository.findAll();
-    }
+    void deleteAnimeById(String id);
 
-    public Anime findAnime(String id) {
-        return this.repository.findById(id).orElseThrow(() -> new AnimeNotFounException(id));
-    }
-
-    public void deleteAnimeById(String id) {
-        if (this.repository.findById(id).isPresent()) {
-            this.repository.deleteById(id);
-        } else {
-            throw new AnimeNotFounException(id);
-        }
-    }
-
-    public Anime createAnime(Anime anime) {
-        return this.repository.save(anime);
-    }
+    Anime createAnime(Anime anime);
 
 }

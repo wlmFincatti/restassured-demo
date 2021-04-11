@@ -2,6 +2,7 @@ package br.com.example.demorestassured.controller;
 
 import br.com.example.demorestassured.entity.Anime;
 import br.com.example.demorestassured.service.AnimeService;
+import br.com.example.demorestassured.service.impl.AnimeServiceImpl;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -15,7 +16,7 @@ public class AnimeController {
 
     private AnimeService service;
 
-    public AnimeController(AnimeService service) {
+    public AnimeController(AnimeServiceImpl service) {
         this.service = service;
     }
 
