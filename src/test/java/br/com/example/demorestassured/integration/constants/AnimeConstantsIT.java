@@ -1,4 +1,4 @@
-package br.com.example.demorestassured.integration.config;
+package br.com.example.demorestassured.integration.constants;
 
 public class AnimeConstantsIT {
     public static final String URL = "http://localhost";

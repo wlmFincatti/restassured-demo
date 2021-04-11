@@ -2,7 +2,7 @@ package br.com.example.demorestassured.integration;
 
 import br.com.example.demorestassured.entity.Anime;
 import br.com.example.demorestassured.entity.enums.GenderEnum;
-import br.com.example.demorestassured.integration.config.AnimeConstantsIT;
+import br.com.example.demorestassured.integration.constants.AnimeConstantsIT;
 import br.com.example.demorestassured.integration.fixtures.AnimeMock;
 import br.com.example.demorestassured.integration.fixtures.BaseIT;
 import org.junit.jupiter.api.MethodOrderer;

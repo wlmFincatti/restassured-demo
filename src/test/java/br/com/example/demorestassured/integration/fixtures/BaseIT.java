@@ -1,7 +1,7 @@
 package br.com.example.demorestassured.integration.fixtures;
 
 import br.com.example.demorestassured.integration.DemoRestassuredApplicationIT;
-import br.com.example.demorestassured.integration.config.AnimeConstantsIT;
+import br.com.example.demorestassured.integration.constants.AnimeConstantsIT;
 import io.restassured.authentication.BasicAuthScheme;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;

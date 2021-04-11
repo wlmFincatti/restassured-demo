@@ -1,6 +1,6 @@
 package br.com.example.demorestassured.integration.fixtures;
 
-import br.com.example.demorestassured.integration.config.AnimeConstantsIT;
+import br.com.example.demorestassured.integration.constants.AnimeConstantsIT;
 import br.com.example.demorestassured.repository.AnimeRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
