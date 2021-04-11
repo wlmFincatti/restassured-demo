@@ -1,6 +1,6 @@
 package br.com.example.demorestassured.controller.exception;
 
-import br.com.example.demorestassured.unit.service.exception.AnimeNotFounException;
+import br.com.example.demorestassured.service.exception.AnimeNotFounException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

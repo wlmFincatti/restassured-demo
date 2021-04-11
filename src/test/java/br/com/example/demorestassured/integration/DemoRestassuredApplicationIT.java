@@ -8,6 +8,4 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT, classes = DemoRestassuredApplication.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class DemoRestassuredApplicationIT {
-
-
 }

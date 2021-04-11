@@ -1,8 +1,8 @@
-package br.com.example.demorestassured.unit.service;
+package br.com.example.demorestassured.service;
 
 import br.com.example.demorestassured.entity.Anime;
 import br.com.example.demorestassured.repository.AnimeRepository;
-import br.com.example.demorestassured.unit.service.exception.AnimeNotFounException;
+import br.com.example.demorestassured.service.exception.AnimeNotFounException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

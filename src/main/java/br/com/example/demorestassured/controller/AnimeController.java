@@ -1,7 +1,7 @@
 package br.com.example.demorestassured.controller;
 
 import br.com.example.demorestassured.entity.Anime;
-import br.com.example.demorestassured.unit.service.AnimeService;
+import br.com.example.demorestassured.service.AnimeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;

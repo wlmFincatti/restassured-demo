@@ -2,6 +2,7 @@ package br.com.example.demorestassured.unit.service;
 
 import br.com.example.demorestassured.entity.Anime;
 import br.com.example.demorestassured.repository.AnimeRepository;
+import br.com.example.demorestassured.service.AnimeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

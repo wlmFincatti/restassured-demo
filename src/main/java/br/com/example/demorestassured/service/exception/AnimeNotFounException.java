@@ -1,4 +1,4 @@
-package br.com.example.demorestassured.unit.service.exception;
+package br.com.example.demorestassured.service.exception;
 
 public class AnimeNotFounException extends RuntimeException {
     public AnimeNotFounException(String id) {
