@@ -5,7 +5,7 @@
 Techs used in this project:
 
 - [Java8] - For the backend
-- [Maven 3.6.3] - To build and management dependecies
+- [Maven 3.6.3] - To build and management dependencies
 - [Junit5] - Junit 5 to integration test and unit test
 - [RestAssured] - RestAssured to integration test
 - [Spring] - Framework used spring/spring-boot
