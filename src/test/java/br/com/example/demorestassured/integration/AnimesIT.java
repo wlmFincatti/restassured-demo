@@ -64,7 +64,7 @@ public class AnimesIT extends BaseIT {
     }
 
     @Test
-    void naoDeveEncontrarAnimePeloIdERetpornarStatusCodeNotFound() {
+    void naoDeveEncontrarAnimePeloIdERetornarStatusCodeNotFound() {
         given(BaseIT.requestSpecification)
                 .pathParam("id", "id_invalid")
                 .when()
